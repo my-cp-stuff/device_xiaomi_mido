@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_mido.mk
+    $(LOCAL_DIR)/bliss_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_mido-eng \
-    derp_mido-userdebug \
-    derp_mido-user
+    bliss_mido-eng \
+    bliss_mido-userdebug \
+    bliss_mido-user

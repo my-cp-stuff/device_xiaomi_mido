@@ -21,22 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common DerpFest stuffs.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common Bliss ROM stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
-# Boot Animation res
+# Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official-ify
-DERP_BUILDTYPE := Official
+# Bliss build type
+BLISS_BUILDTYPE=OFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := derp_mido
+PRODUCT_NAME := bliss_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
