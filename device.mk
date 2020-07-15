@@ -394,3 +394,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Firefox
+PRODUCT_PACKAGES += \
+    Firefox
