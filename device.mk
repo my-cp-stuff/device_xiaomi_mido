@@ -22,6 +22,9 @@ PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/display
 PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/audio
 PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8996/media
 
+PRODUCT_BOARD_PLATFORM := msm8996
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
