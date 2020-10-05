@@ -2,10 +2,6 @@
 # system.prop for mido
 #
 
-# Pixel identification
-PRODUCT_PRODUCT_PROPERTIES += \
-ro.build.fingerprint=google/flame/flame:10/QQ3A.200805.001/6578210:user/release-keys
-
 # [Temp] Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.heapstartsize=16m \
