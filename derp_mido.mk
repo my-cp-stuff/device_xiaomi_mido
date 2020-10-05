@@ -26,10 +26,10 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
-TARGET_MINIMAL_APPS := false
-TARGET_INCLUDE_STOCK_ARCORE := true
+
+# Boot Animation res
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Official-ify
 DERP_BUILDTYPE := Official
