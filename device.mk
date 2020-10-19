@@ -422,3 +422,7 @@ PRODUCT_BOOT_JARS += \
 # Firefox
 PRODUCT_PACKAGES += \
     Firefox
+
+# Messaging
+PRODUCT_PACKAGES += \
+   messaging
