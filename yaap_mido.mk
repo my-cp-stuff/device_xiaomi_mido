@@ -40,10 +40,9 @@ BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-
 # Build fingerprint
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
-BUILD_DESCRIPTION := coral-user 10 RP1A.200720.009 6720564 release-keys
+PRIVATE_BUILD_DESC= mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys
+BUILD_FINGERPRINT := xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
