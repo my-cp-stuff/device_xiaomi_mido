@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common DerpFest stuffs.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
+# Boot screen res
+scr_resolution := 1080
+
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
