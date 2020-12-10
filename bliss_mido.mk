@@ -28,7 +28,7 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Bliss build type
-BLISS_BUILDTYPE=OFFICIAL
+BLISS_BUILDTYPE=UNOFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
